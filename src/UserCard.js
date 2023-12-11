@@ -12,6 +12,7 @@ function UserCard() {
         <div>
           <p className="user_name">Pramod Acharya</p>
           <p className="skill">Full Stack MERN Developer</p>
+          <p className="skill exp">Proficiency: Cloud Env | Backend</p>
           <p className="skill"></p>
         </div>
         <div
@@ -37,7 +38,7 @@ function UserCard() {
           </div>
           <div className="icons">
             <a
-              href="https://www.google.com"
+              href="https://www.linkedin.com/in/pramodacharya/"
               target="_blank"
               className="fab"
               rel="noopener noreferrer"
@@ -45,7 +46,7 @@ function UserCard() {
               <FaIcons.FaLinkedin className="fab" />
             </a>
             <a
-              href="https://www.google.com"
+              href="https://github.com/PramodAcharya808"
               target="_blank"
               className="fab"
               rel="noopener noreferrer"
@@ -53,7 +54,7 @@ function UserCard() {
               <FaIcons.FaGithub className="fab" />
             </a>
             <a
-              href="https://www.google.com"
+              href="https://www.instagram.com/pramod____acharya/"
               target="_blank"
               className="fab"
               rel="noopener noreferrer"
