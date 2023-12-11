@@ -1,0 +1,122 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    height: 100vh;
+}
+
+.box {
+    width: 380px;
+    height: 380px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2888);
+    border-radius: 45px;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.box img {
+    width: 140px;
+    height: 140px;
+    border-radius: 75px;
+}
+
+.user_name {
+    margin: 10px 0 10px 0;
+    font-size: 2rem;
+}
+
+.skill {
+    font-size: 1.1rem;
+    text-align: center;
+    color: rgba(255, 255, 201, 0.555);
+}
+
+.arr_container,
+.cancel {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: white;
+    color: rgb(70, 70, 70);
+    width: 75px;
+    height: 75px;
+    border-radius: 45px 0 45px 0;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.arr_container>.fas {
+    transform: rotate(45deg);
+}
+
+/* 
+.arr_container {
+    transform: translate(80%, 80%);
+} */
+
+.left_container {
+    position: absolute;
+    background: #0F2027;
+    width: 100%;
+    height: 100%;
+    border-radius: 45px;
+    padding: 40px 20px 0 20px;
+    transition: all 0.4s;
+}
+
+.off {
+    transform: translate(-80%, -80%) rotate(90deg);
+}
+
+.active {
+    transform: translate(0) rotate(0);
+}
+
+.left_container p {
+    margin: 5px;
+    font-size: 1.2rem;
+}
+
+.left_container .head {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* .left_container .skills .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+} */
+
+.left_container .skills div {
+    display: inline-block;
+    color: rgb(155, 155, 155);
+    border: 1px solid rgb(155, 155, 155);
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    margin: 4px 4px 4px 0;
+}
+
+.left_container .icons {
+    font-size: 2rem;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.left_container .icons>.fab {
+    color: #CFCFCF;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: all 0.4s;
+}
+
+.left_container .icons>.fab:hover {
+    color: #2c5364;
+}
